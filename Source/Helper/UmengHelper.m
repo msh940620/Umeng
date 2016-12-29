@@ -8,7 +8,7 @@
 
 #import "UmengHelper.h"
 #import <UMSocialCore/UMSocialCore.h>
-#import "UMMobClick/MobClick.h"
+#import <UMMobClick/MobClick.h>
 
 @implementation UmengHelper
 
