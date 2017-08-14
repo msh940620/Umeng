@@ -9,8 +9,9 @@
 @interface ShareInfo : NSObject
 
 @property (nonatomic, copy) NSString *shareLink;
-@property (nonatomic, copy) NSString *shareImg;
+@property (nonatomic, copy) id shareSmallImg;
 @property (nonatomic, copy) NSString *shareDesc;
 @property (nonatomic, copy) NSString *shareTitle;
+@property (nonatomic, copy) id shareImg;
 - (instancetype)initWithDic:(NSDictionary*)dic;
 @end

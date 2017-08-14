@@ -26,6 +26,9 @@
             if (nil != dic[@"shareTitle"]) {
                 self.shareTitle = dic[@"shareTitle"];
             }
+            if (nil != dic[@"shareSmallImg"]){
+                self.shareSmallImg = dic[@"shareSmallImg"];
+            }
         }
     }
 

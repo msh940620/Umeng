@@ -10,7 +10,7 @@
 #import "BaseViewController.h"
 @interface ShareAction : NSObject
 
-+(void)shareWithName:(NSString *)name url:(NSString *)url desc:(NSString *)desc img_url:(NSString *)imgUrl withViewController:(BaseViewController *)viewController;
++(void)shareWithName:(NSString *)name url:(NSString *)url desc:(NSString *)desc img:(id)img withShareImg:(id)shareImg withViewController:(BaseViewController *)viewController;
 
 +(void)shareWithModel:(ShareInfo*)shareInfo withViewController:(BaseViewController *)viewController;
 
