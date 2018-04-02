@@ -135,7 +135,7 @@ Pod::Spec.new do |s|
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
 
-  s.dependency "UMengAnalytics-NO-IDFA", "~> 6.8.2"
+  s.dependency "UMengAnalytics-NO-IDFA", "~> 6.8.0"
   # U-Share SDK UI模块（分享面板，建议添加）
   s.dependency "UMengUShare/UI"
   # 集成新浪微博
