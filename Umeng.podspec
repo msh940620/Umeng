@@ -137,7 +137,7 @@ Pod::Spec.new do |s|
 
   s.dependency "UMengAnalytics-NO-IDFA"
   # U-Share SDK UI模块（分享面板，建议添加）
-  s.dependency "UMengUShare/UI", "~> 6.8.2"
+  s.dependency "UMengUShare/UI"
   # 集成新浪微博
   s.dependency "UMengUShare/Social/Sina"
   # 集成微信
