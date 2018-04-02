@@ -141,8 +141,8 @@ Pod::Spec.new do |s|
   # 集成新浪微博
   s.dependency "UMengUShare/Social/Sina"
   # 集成微信
-  # s.dependency "UMengUShare/Social/WeChat"
-  s.dependency "WechatOpenSDK"
+  s.dependency "UMengUShare/Social/WeChat"
+  # s.dependency "WechatOpenSDK"
   # 集成QQ
   s.dependency "UMengUShare/Social/QQ"
 
